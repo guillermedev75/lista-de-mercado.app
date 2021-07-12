@@ -1,0 +1,106 @@
+@media screen and (max-width:768px) {
+    
+    .lista-cadastro{
+        flex-wrap: wrap;
+        height: 95px;
+        max-width: 720px;
+
+    }
+    .lista-cadastro input[type=text]{
+        flex: 1;
+        height: 60px;
+    }
+    
+    .lista-cadastro input[type=number]{
+        flex: 1;
+        height: 60px;
+        margin-right: 5px;
+
+    }
+    
+    .lista-cadastro input[type=submit]{
+        flex: 1;
+        height: 30px;
+        margin-top: 5px;
+        min-width: 710px;
+    }
+    .lista-single{
+        max-width: 720px;
+    }
+    .soma-produto{
+        max-width: 720px;
+    }
+    .limpar{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:720px) {
+    
+    .lista-cadastro{
+        flex-wrap: wrap;
+        height: 95px;
+        max-width: 500px;
+
+    }
+    .lista-cadastro input[type=text]{
+        flex: 2;
+        height: 60px;
+    }
+    
+    .lista-cadastro input[type=number]{
+        flex: 2;
+        height: 60px;
+        margin-right: 5px;
+
+    }
+    
+    .lista-cadastro input[type=submit]{
+        flex: 1;
+        height: 30px;
+        margin-top: 5px;
+        max-width: 500px;
+    }
+    .lista-single{
+        max-width: 720px;
+    }
+    .soma-produto{
+        max-width: 720px;
+    }
+    .limpar{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:425px) {
+    
+    .lista-cadastro{
+        flex-wrap: wrap;
+        max-width: 425px;
+        height: 85px;
+
+    }
+    .lista-cadastro input[type=text]{
+        flex: 2;
+        height: 40px;
+    }
+    
+    .lista-cadastro input[type=number]{
+        flex: 2;
+        margin-right: 5px;
+        height: 40px;
+    }
+    
+    .lista-cadastro input[type=submit]{
+        flex: 1;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .lista-single{
+        max-width: 720px;
+    }
+    .soma-produto{
+        max-width: 720px;
+    }
+    .limpar{
+        max-width: 720px;
+    }
+}
